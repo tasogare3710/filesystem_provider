@@ -1,4 +1,5 @@
 [workspace]
 members = [
 	"filesystem_provider_api",
+	"filesystem_provider_impl_disk",
 ]

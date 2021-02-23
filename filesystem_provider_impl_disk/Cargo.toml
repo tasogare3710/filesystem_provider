@@ -1,0 +1,19 @@
+[package]
+name = "filesystem_provider_impl_disk"
+version = "0.1.0"
+authors = ["tasogare3710 <tasogare.android@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.filesystem_provider_api]
+path = "../filesystem_provider_api"
+
+[dependencies.thiserror]
+version = "=1.0.24"
+
+[dependencies.delegate-attr]
+version = "=0.2.9"
+
+[dev-dependencies.mktemp]
+version = "=0.4.1"
