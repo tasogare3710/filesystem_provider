@@ -10,10 +10,10 @@ edition = "2018"
 path = "../filesystem_provider_api"
 
 [dependencies.thiserror]
-version = "=1.0.24"
+version = "~1.0.25"
 
 [dependencies.delegate-attr]
-version = "=0.2.9"
+version = "^0.2"
 
 [dev-dependencies.mktemp]
-version = "=0.4.1"
+version = "~0.4.1"
